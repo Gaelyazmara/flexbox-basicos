@@ -67,3 +67,56 @@
         padding: 5rem;
     }
     
+/* 1 */
+
+.d-flex {
+    display: flex;
+}
+
+/* 2 */
+
+.d-flex-2 {
+    display: flex;
+    flex-direction: row;
+}
+
+/* 3 */
+.d-flex-3{
+    display: flex;
+    justify-content: center;
+}
+
+/* 4 */
+.d-flex-4 {
+    display: flex ;
+    flex-direction: column;
+    height: 1000px;
+}
+
+/* 5 */
+.d-flex-5 {
+    display: flex;
+    height: 700px;
+    align-items: flex-start;
+}
+
+/* 6 */
+.d-flex-6 {
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+}
+
+/* 7 */
+.d-flex-7 {
+    display: flex;
+    height: 800px;
+}
+
+/* 8 */
+.d-flex-8 {
+    display: flex;
+}
+.d-flex-8 .box {
+    flex-basis:300px;
+}
